@@ -28,82 +28,82 @@ Tidy dataset contains the average of all variables of the intermediate dataset.
 
 Variable names were modified in the follonwing way:
 
- 1. Replaced `-mean` with `Mean`
- 2. Replaced `-std` with `Std`
- 3. Removed parenthesis `-()`
- 4. Replaced `t` with `Time` 
- 5. Replaced `f` with `Freq` 
+ 1. Replaced -mean with Mean
+ 2. Replaced -std with Std
+ 3. Removed parenthesis -()
+ 4. Replaced t with Time 
+ 5. Replaced f with Freq 
 
 ## Resulting variable names
 
- | Tidy data 
- |--------------------------
- | `subject_id`
- | `activity`
- | `TimeBodyAccMeanX`
- | `TimeBodyAccMeanY`
- | `TimeBodyAccMeanZ`
- | `TimeBodyAccStdX`
- | `TimeBodyAccStdY`
- | `TimeBodyAccStdZ`
- | `TimeGravityAccMeanX`
- | `TimeGravityAccMeanY`
- | `TimeGravityAccMeanZ`
- | `TimeGravityAccStdX`
- | `TimeGravityAccStdY`
- | `TimeGravityAccStdZ`
- | `TimeBodyAccJerkMeanX`
- | `TimeBodyAccJerkMeanY`
- | `TimeBodyAccJerkMeanZ`
- | `TimeBodyAccJerkStdX`
- | `TimeBodyAccJerkStdY`
- | `TimeBodyAccJerkStdZ`
- | `TimeBodyGyroMeanX`
- | `TimeBodyGyroMeanY`
- | `TimeBodyGyroMeanZ`
- | `TimeBodyGyroStdX`
- | `TimeBodyGyroStdY`
- | `TimeBodyGyroStdZ`
- | `TimeBodyGyroJerkMeanX`
- | `TimeBodyGyroJerkMeanY`
- | `TimeBodyGyroJerkMeanZ`
- | `TimeBodyGyroJerkStdX`
- | `TimeBodyGyroJerkStdY`
- | `TimeBodyGyroJerkStdZ`
- | `TimeBodyAccMagMean`
- | `TimeBodyAccMagStd`
- | `TimeGravityAccMagMean`
- | `TimeGravityAccMagStd`
- | `TimeBodyAccJerkMagMean`
- | `TimeBodyAccJerkMagStd`
- | `TimeBodyGyroMagMean`
- | `TimeBodyGyroMagStd`
- | `TimeBodyGyroJerkMagMean`
- | `TimeBodyGyroJerkMagStd`
- | `FreqBodyAccMeanX`
- | `FreqBodyAccMeanY`
- | `FreqBodyAccMeanZ`
- | `FreqBodyAccStdX`
- | `FreqBodyAccStdY`
- | `FreqBodyAccStdZ`
- | `FreqBodyAccJerkMeanX`
- | `FreqBodyAccJerkMeanY`
- | `FreqBodyAccJerkMeanZ`
- | `FreqBodyAccJerkStdX`
- | `FreqBodyAccJerkStdY`
- | `FreqBodyAccJerkStdZ`
- | `FreqBodyGyroMeanX`
- | `FreqBodyGyroMeanY`
- | `FreqBodyGyroMeanZ`
- | `FreqBodyGyroStdX`
- | `FreqBodyGyroStdY`
- | `FreqBodyGyroStdZ`
- | `FreqBodyAccMagMean`
- | `FreqBodyAccMagStd`
- | `FreqBodyBodyAccJerkMagMean`
- | `FreqBodyBodyAccJerkMagStd`
- | `FreqBodyBodyGyroMagMean`
- | `FreqBodyBodyGyroMagStd`
- | `FreqBodyBodyGyroJerkMagMean`
- | `FreqBodyBodyGyroJerkMagStd`
+ | Variable nam                | 
+ |-----------------------------| 
+ | subject_id                  | 
+ | activity                    | 
+ | TimeBodyAccMeanX            | 
+ | TimeBodyAccMeanY            | 
+ | TimeBodyAccMeanZ            | 
+ | TimeBodyAccStdX             | 
+ | TimeBodyAccStdY             | 
+ | TimeBodyAccStdZ             | 
+ | TimeGravityAccMeanX         | 
+ | TimeGravityAccMeanY         |  
+ | TimeGravityAccMeanZ         | 
+ | TimeGravityAccStdX          | 
+ | TimeGravityAccStdY          | 
+ | TimeGravityAccStdZ          | 
+ | TimeBodyAccJerkMeanX        | 
+ | TimeBodyAccJerkMeanY        | 
+ | TimeBodyAccJerkMeanZ        | 
+ | TimeBodyAccJerkStdX         | 
+ | TimeBodyAccJerkStdY         | 
+ | TimeBodyAccJerkStdZ         | 
+ | TimeBodyGyroMeanX           | 
+ | TimeBodyGyroMeanY           | 
+ | TimeBodyGyroMeanZ           | 
+ | TimeBodyGyroStdX            | 
+ | TimeBodyGyroStdY            | 
+ | TimeBodyGyroStdZ            | 
+ | TimeBodyGyroJerkMeanX       | 
+ | TimeBodyGyroJerkMeanY       | 
+ | TimeBodyGyroJerkMeanZ       | 
+ | TimeBodyGyroJerkStdX        | 
+ | TimeBodyGyroJerkStdY        | 
+ | TimeBodyGyroJerkStdZ        | 
+ | TimeBodyAccMagMean          | 
+ | TimeBodyAccMagStd           | 
+ | TimeGravityAccMagMean       | 
+ | TimeGravityAccMagStd        | 
+ | TimeBodyAccJerkMagMean      | 
+ | TimeBodyAccJerkMagStd       | 
+ | TimeBodyGyroMagMean         | 
+ | TimeBodyGyroMagStd          | 
+ | TimeBodyGyroJerkMagMean     | 
+ | TimeBodyGyroJerkMagStd      | 
+ | FreqBodyAccMeanX            | 
+ | FreqBodyAccMeanY            | 
+ | FreqBodyAccMeanZ            | 
+ | FreqBodyAccStdX             | 
+ | FreqBodyAccStdY             | 
+ | FreqBodyAccStdZ             | 
+ | FreqBodyAccJerkMeanX        | 
+ | FreqBodyAccJerkMeanY        | 
+ | FreqBodyAccJerkMeanZ        | 
+ | FreqBodyAccJerkStdX         | 
+ | FreqBodyAccJerkStdY         | 
+ | FreqBodyAccJerkStdZ         | 
+ | FreqBodyGyroMeanX           | 
+ | FreqBodyGyroMeanY           | 
+ | FreqBodyGyroMeanZ           | 
+ | FreqBodyGyroStdX            | 
+ | FreqBodyGyroStdY            | 
+ | FreqBodyGyroStdZ            | 
+ | FreqBodyAccMagMean          | 
+ | FreqBodyAccMagStd           | 
+ | FreqBodyBodyAccJerkMagMean  | 
+ | FreqBodyBodyAccJerkMagStd   | 
+ | FreqBodyBodyGyroMagMean     | 
+ | FreqBodyBodyGyroMagStd      | 
+ | FreqBodyBodyGyroJerkMagMean | 
+ | FreqBodyBodyGyroJerkMagStd  | 
 
