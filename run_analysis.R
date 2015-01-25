@@ -2,7 +2,7 @@
 
 # Set the working directory on the github repository you just dowloaded
 
-setwd("/Users/davidquer/Projects/getting_and_cleaning_data/") ## change the path for your machine
+## setwd("/Users/davidquer/Projects/getting_and_cleaning_data/") ## change the path for your machine
 
 # Download UCI HAR Dataset in the working directory
 

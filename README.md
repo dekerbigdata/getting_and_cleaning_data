@@ -7,15 +7,15 @@ This repository contains the Course Project for the Getting and Cleaning Courser
 
 The script reproduces the steps performed in the project downloading and cleaning the data. For more information on the dataset please read the CodeBook file.
 
-(Don't forget to set your working directory first)
+(Don't forget to set your working directory first editing the file)
 
 ```r
 source('run_analysis.R')
-run.analysis()
 ```
 
 ## Processing steps
 
+0. Sets the working diretory.
 1. Downloads UCI HAR Dataset into the working directory.
 2. Reads the data into tow datasets for training and test data.
 3. Merges the training and the test sets to create one dataset.
