@@ -70,16 +70,16 @@ Variable names were modified in the follonwing way:
  | `TimeBodyGyroJerkStdX`
  | `TimeBodyGyroJerkStdY`
  | `TimeBodyGyroJerkStdZ`
- | `TimeBodyAccMagMean
- | `TimeBodyAccMagStd
- | `TimeGravityAccMagMean
- | `TimeGravityAccMagStd
- | `TimeBodyAccJerkMagMean
- | `TimeBodyAccJerkMagStd
- | `TimeBodyGyroMagMean
- | `TimeBodyGyroMagStd
- | `TimeBodyGyroJerkMagMean
- | `TimeBodyGyroJerkMagStd
+ | `TimeBodyAccMagMean`
+ | `TimeBodyAccMagStd`
+ | `TimeGravityAccMagMean`
+ | `TimeGravityAccMagStd`
+ | `TimeBodyAccJerkMagMean`
+ | `TimeBodyAccJerkMagStd`
+ | `TimeBodyGyroMagMean`
+ | `TimeBodyGyroMagStd`
+ | `TimeBodyGyroJerkMagMean`
+ | `TimeBodyGyroJerkMagStd`
  | `FreqBodyAccMeanX`
  | `FreqBodyAccMeanY`
  | `FreqBodyAccMeanZ`
